@@ -15,7 +15,11 @@ namespace AdventOfCode2022
         }
 
         public override object SolvePartOne(int example) {
-            string[] input = GetInput(example);
+            string[] input = GetInput(example);            
+
+            foreach(String s in input) {
+                return $"Day 6, Part 1, Marker location: {markerLocation(s, 4)}";
+            }
            
             return $"";
         }
@@ -23,10 +27,20 @@ namespace AdventOfCode2022
         public override object SolvePartTwo(int example) {
             string[] input = GetInput(example);
 
-           
+            foreach (String s in input) {
+                return $"Day 6, Part 2, Marker location: {markerLocation(s, 14)}";
+            }
 
             return $"";
+        }
 
+        private int markerLocation(String message, int numChars) {
+            for (int i = numChars-1; i < message.Length; i++) {
+                if (message.Substring(i - numChars+1, numChars).Distinct().Count() == numChars) {
+                    return i + 1;
+                }
+            }
+            return -1;
         }
 
       
