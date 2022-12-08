@@ -39,9 +39,11 @@ namespace AdventOfCode2022
             Console.WriteLine($"{day7.SolvePartOne(0)} (Actual)");
             Console.WriteLine($"{day7.SolvePartTwo(0)} (Actual)");
 
-            //Day8 day8 = new Day8("Inputs\\Day8_Input.txt", new List<String> { "Inputs\\Day8_Example.txt" });
-            //Console.WriteLine(day8.SolvePartOne(0));
-            //Console.WriteLine(day8.SolvePartTwo(0));
+            Day8 day8 = new Day8("Inputs\\Day8_Input.txt", new List<String> { "Inputs\\Day8_Example.txt" });
+            Console.WriteLine($"{day8.SolvePartOne(1)} (Example)");
+            Console.WriteLine($"{day8.SolvePartTwo(1)} (Example)");
+            Console.WriteLine($"{day8.SolvePartOne(0)} (Actual)");
+            Console.WriteLine($"{day8.SolvePartTwo(0)} (Actual)");
 
             //Day9 day9 = new Day9("Inputs\\Day9_Input.txt", new List<String> { "Inputs\\Day9_Example.txt" });
             //Console.WriteLine(day9.SolvePartOne(0));
