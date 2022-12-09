@@ -93,10 +93,7 @@ namespace AdventOfCode2022
             }
 
             public bool CalculateVisibility(Tree[,] trees) {
-                if(X==2 && Y == 3) {
-                    Debugger.Break();
-                }
-
+               
                 bool left = true;
                 int leftViewingDistance = 0;
                 int check = X;
