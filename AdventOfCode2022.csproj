@@ -76,7 +76,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Inputs\Day10_Example1.txt">
+    <Content Include="Inputs\Day10_Example.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Inputs\Day10_Input.txt">

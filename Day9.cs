@@ -16,6 +16,21 @@ namespace AdventOfCode2022
 
         }
 
+        public enum TailRelativeToHead
+        {
+            None,
+            Overlap,
+            TopLeft,
+            Top,
+            TopRight,
+            Right,
+            BottomRight,
+            Bottom,
+            BottomLeft,
+            Left
+        }
+
+
         Dictionary<Tuple<TailRelativeToHead, char>, Tuple<int, int, TailRelativeToHead, char>> actions = new Dictionary<Tuple<TailRelativeToHead, char>, Tuple<int, int, TailRelativeToHead, char>> {
             { new Tuple<TailRelativeToHead,char>(TailRelativeToHead.Overlap, 'U'), new Tuple<int,int,TailRelativeToHead, char>(0,0,TailRelativeToHead.Bottom, 'N') },
             { new Tuple<TailRelativeToHead,char>(TailRelativeToHead.TopLeft, 'U'), new Tuple<int,int,TailRelativeToHead, char>(0,0, TailRelativeToHead.Left,'N') },
@@ -193,20 +208,7 @@ namespace AdventOfCode2022
 
       
 
-        public enum TailRelativeToHead
-        {
-            None,
-            Overlap,
-            TopLeft,
-            Top,
-            TopRight,
-            Right,
-            BottomRight,
-            Bottom,
-            BottomLeft,
-            Left
-        }
-
+       
 
     }
 }
