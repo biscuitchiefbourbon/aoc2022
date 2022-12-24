@@ -78,19 +78,23 @@ namespace AdventOfCode2022
             //Console.WriteLine($"{Day13.SolvePartOne(0)} (Actual)");
             //Console.WriteLine($"{Day13.SolvePartTwo(0)} (Actual)");
 
-            Day14 Day14 = new Day14("Inputs\\Day14_Input.txt", new List<String> { "Inputs\\Day14_Example.txt" });
-            Console.WriteLine($"{Day14.SolvePartOne(1)} (Example)");
-            Console.WriteLine($"{Day14.SolvePartTwo(1)} (Example)");
-            Console.WriteLine($"{Day14.SolvePartOne(0)} (Actual)");
-            Console.WriteLine($"{Day14.SolvePartTwo(0)} (Actual)");
+            //Day14 Day14 = new Day14("Inputs\\Day14_Input.txt", new List<String> { "Inputs\\Day14_Example.txt" });
+            //Console.WriteLine($"{Day14.SolvePartOne(1)} (Example)");
+            //Console.WriteLine($"{Day14.SolvePartTwo(1)} (Example)");
+            //Console.WriteLine($"{Day14.SolvePartOne(0)} (Actual)");
+            //Console.WriteLine($"{Day14.SolvePartTwo(0)} (Actual)");
 
             //Day15 Day15 = new Day15("Inputs\\Day15_Input.txt", new List<String> { "Inputs\\Day15_Example.txt" });
-            //Console.WriteLine(Day15.SolvePartOne(0));
-            //Console.WriteLine(Day15.SolvePartTwo(0));
+            //Console.WriteLine($"{Day15.SolvePartOne(1)} (Example)");
+            //Console.WriteLine($"{Day15.SolvePartTwo(1)} (Example)");
+            //Console.WriteLine($"{Day15.SolvePartOne(0)} (Actual)");
+            //Console.WriteLine($"{Day15.SolvePartTwo(0)} (Actual)");
 
-            //Day16 Day16 = new Day16("Inputs\\Day16_Input.txt", new List<String> { "Inputs\\Day16_Example.txt" });
-            //Console.WriteLine(Day16.SolvePartOne(0));
-            //Console.WriteLine(Day16.SolvePartTwo(0));
+            Day16 Day16 = new Day16("Inputs\\Day16_Input.txt", new List<String> { "Inputs\\Day16_Example.txt" });
+            Console.WriteLine($"{Day16.SolvePartOne(1)} (Example)");
+            Console.WriteLine($"{Day16.SolvePartTwo(1)} (Example)");
+            Console.WriteLine($"{Day16.SolvePartOne(0)} (Actual)");
+            Console.WriteLine($"{Day16.SolvePartTwo(0)} (Actual)");
 
             //Day17 Day17 = new Day17("Inputs\\Day17_Input.txt", new List<String> { "Inputs\\Day17_Example.txt" });
             //Console.WriteLine(Day17.SolvePartOne(0));
